@@ -16,10 +16,12 @@ Constraints
 • The app must support both portrait and landscape modes without crashing at any time.
 • The app may use libraries for HTTP/REST or JSON, such as Retrofit2+, Moshi, Gson, etc...
 • The app must include unit tests
+
 Story 1: When the user launches the application, he should land in a screen where is possible to see top headlines for the specific news source
 
 Acceptance criteria:
-1. News provider name should be showed as a screen title 2. Headlines are presented in a list format.
+1. News provider name should be showed as a screen title
+2. Headlines are presented in a list format.
 3. Each cell should present the headline title
 4. Headlines must be sorted by date
 5. The user must be able to scroll through the list of headlines
@@ -35,7 +37,7 @@ Acceptance criteria:
 Acceptance criteria:
 1. If the device has a fingerprint scanner and it’s configured in the device, user should be required to use it when he opens the application
 2. If the device doesn’t have fingerprint scanner or it’s not configured, then it should open normally
-Bonus Story 4: A new flavor should be created to present news for another source
+3. Bonus Story 4: A new flavor should be created to present news for another source
 
 Acceptance criteria:
 1. User should land in a different news source if running another target
