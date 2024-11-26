@@ -1,6 +1,5 @@
-package com.katarina.androidchalenge.ui.theme
+package com.katarina.design.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
