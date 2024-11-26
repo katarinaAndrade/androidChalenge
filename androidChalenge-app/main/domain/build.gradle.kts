@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.katarina.main.domain"
-    compileSdk = 34
+    namespace = libs.versions.mainDomainModule.get()
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        minSdk = 24
+        minSdk = libs.versions.minSdk.get().toInt()
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = libs.versions.testInstrumentationRunner.get()
         consumerProguardFiles("consumer-rules.pro")
     }
 
@@ -23,21 +23,20 @@ android {
             )
         }
     }
+
+    val java = JavaVersion.toVersion(libs.versions.javaVersion.get())
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = java
+        targetCompatibility = java
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = java.toString()
     }
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.bundles.mainDomainModuleBundles)
+    testImplementation(libs.bundles.mainDomainModuleBundlesTestImpl)
+    androidTestImplementation(libs.bundles.mainDomainModuleBundleAndroidTestImpl)
+    debugImplementation(libs.bundles.mainDomainModuleBundlesDebugImpl)
 }
