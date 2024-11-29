@@ -13,7 +13,6 @@ Constraints
 1. The app must be written in Kotlin or Java, preferably Kotlin.
 2. The app must run on the lastest released Android version/API level.
 3. The app must be built using the latest major Android Studio version,without requiring the reviewer to modify any existing code.
-4. The app must support both portrait and landscape modes without crashing at any time.
 5. The app must support both portrait and landscape modes without crashing at any time.
 6. The app may use libraries for HTTP/REST or JSON, such as Retrofit2+, Moshi, Gson, etc...
 7. The app must include unit tests
