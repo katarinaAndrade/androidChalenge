@@ -10,12 +10,12 @@ Design
 You don’t need to waste too much time in doing complex designs, but you should take into account several screen dimensions and orientations.
 
 Constraints
-• The app must be written in Kotlin or Java, preferably Kotlin.
-• The app must run on the lastest released Android version/API level.
-• The app must be built using the latest major Android Studio version,without requiring the reviewer to modify any existing code.
-• The app must support both portrait and landscape modes without crashing at any time.
-• The app may use libraries for HTTP/REST or JSON, such as Retrofit2+, Moshi, Gson, etc...
-• The app must include unit tests
+  • The app must be written in Kotlin or Java, preferably Kotlin.
+  • The app must run on the lastest released Android version/API level.
+  • The app must be built using the latest major Android Studio version,without requiring the reviewer to modify any existing code.
+  • The app must support both portrait and landscape modes without crashing at any time.
+  • The app may use libraries for HTTP/REST or JSON, such as Retrofit2+, Moshi, Gson, etc...
+  • The app must include unit tests
 
 Story 1: When the user launches the application, he should land in a screen where is possible to see top headlines for the specific news source
 
