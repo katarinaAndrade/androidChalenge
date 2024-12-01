@@ -1,7 +1,6 @@
 [versions]
 # App config
 compileSdk = "35"
-detektFormatting = "1.23.7"
 minSdk = "24"
 targetSdk = "34"
 versionCode = "1"
@@ -30,6 +29,12 @@ composeBom = "2024.11.00"
 
 detekt = "1.23.7"
 
+constraintlayout = "1.1.0"
+nav_version = "2.8.4"
+koin_version = "4.0.0"
+systemuicontroller_version = "0.36.0"
+retrofit = "2.9.0"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
@@ -48,7 +53,13 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 
-detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detektFormatting" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayout" }
+nav-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "nav_version" }
+koin = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin_version" }
+systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "systemuicontroller_version" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+moshiConverter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
@@ -67,7 +78,8 @@ appModuleBundles = [
     "androidx-ui",
     "androidx-ui-graphics",
     "androidx-ui-tooling-preview",
-    "androidx-material3"
+    "androidx-material3",
+    "koin"
 ]
 
 appModuleBundlesTestImpl = [
@@ -88,7 +100,10 @@ appModuleBundlesDebugImpl = [
 # Core Module
 coreModuleBundles = [
     "androidx-core-ktx",
-    "androidx-lifecycle-runtime-ktx"
+    "androidx-lifecycle-runtime-ktx",
+    "koin",
+    "retrofit",
+    "moshiConverter"
 ]
 
 coreModuleBundlesTestImpl = [
@@ -111,7 +126,11 @@ designModuleBundles = [
     "androidx-ui",
     "androidx-ui-graphics",
     "androidx-ui-tooling-preview",
-    "androidx-material3"
+    "androidx-material3",
+    "constraintlayout",
+    "nav-compose",
+    "koin",
+    "systemuicontroller"
 ]
 
 designModuleBundlesTestImpl = [
@@ -132,7 +151,8 @@ designModuleBundlesDebugImpl = [
 # Main Domain Module
 mainDomainModuleBundles = [
     "androidx-core-ktx",
-    "androidx-lifecycle-runtime-ktx"
+    "androidx-lifecycle-runtime-ktx",
+    "koin"
 ]
 
 mainDomainModuleBundlesTestImpl = [
@@ -155,7 +175,10 @@ mainUIModuleBundles = [
     "androidx-ui",
     "androidx-ui-graphics",
     "androidx-ui-tooling-preview",
-    "androidx-material3"
+    "androidx-material3",
+    "constraintlayout",
+    "nav-compose",
+    "koin"
 ]
 
 mainUIModuleBundlesTestImpl = [

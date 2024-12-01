@@ -35,6 +35,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core)
+
     implementation(libs.bundles.mainDomainModuleBundles)
     testImplementation(libs.bundles.mainDomainModuleBundlesTestImpl)
     androidTestImplementation(libs.bundles.mainDomainModuleBundleAndroidTestImpl)
