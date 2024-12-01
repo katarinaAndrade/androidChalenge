@@ -1,21 +1,17 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
 }
 
 android {
-    namespace = libs.versions.appModule.get()
+    namespace = libs.versions.mainUIModule.get()
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = libs.versions.appModule.get()
         minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = libs.versions.versionCode.get().toInt()
-        versionName = libs.versions.versionName.get()
 
         testInstrumentationRunner = libs.versions.testInstrumentationRunner.get()
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -36,24 +32,16 @@ android {
     kotlinOptions {
         jvmTarget = java.toString()
     }
-    buildFeatures {
-        compose = true
-    }
 }
 
 dependencies {
-    implementation(projects.core)
-    implementation(projects.design)
-    implementation(projects.main.domain)
-    implementation(projects.main.ui)
-
     implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.bundles.appModuleBundles)
+    implementation(libs.bundles.mainUIModuleBundles)
 
-    testImplementation(libs.bundles.appModuleBundlesTestImpl)
+    testImplementation(libs.bundles.mainUIModuleBundlesTestImpl)
 
     androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.bundles.appModuleBundleAndroidTestImpl)
+    androidTestImplementation(libs.bundles.mainUIModuleBundleAndroidTestImpl)
 
-    debugImplementation(libs.bundles.appModuleBundlesDebugImpl)
+    debugImplementation(libs.bundles.mainUIModuleBundlesDebugImpl)
 }

@@ -1,4 +1,4 @@
-package com.katarina.androidchalenge.ui.theme
+package com.katarina.design.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -18,6 +18,10 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "AndroidChalenge"
 include(":app")
+include(":core")
+include(":design")
+include(":main:ui")
+include(":main:domain")
