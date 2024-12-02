@@ -43,6 +43,7 @@ android {
 
 dependencies {
     implementation(projects.core)
+    implementation(projects.core.test)
     implementation(projects.design)
     implementation(projects.main.domain)
     implementation(projects.main.ui)

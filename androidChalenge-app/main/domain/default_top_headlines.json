@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 35,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "ZDNet"
+      },
+      "author": "Jason Hiner",
+      "title": "Instead of AirPods, I'd recommend this rare Meta Ray-Bans deal for 20% off for Cyber Monday - ZDNet",
+      "description": "Meta Ray-Ban smart glasses give you nearly the same audio quality as AirPods, while also serving as a fast camera and a hands-free AI assistant.",
+      "url": "https://www.zdnet.com/article/meta-ray-ban-smart-glasses-cyber-monday-12-01-2024/",
+      "urlToImage": "https://www.zdnet.com/a/img/resize/f13ed1f2094f72dd30f9ac92280babe1ed7f6e79/2024/03/28/bab54f61-5901-48ba-b60a-af5914658f78/dsc00151.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2024-12-01T14:18:00Z",
+      "content": "Kerry Wan/ZDNET\r\nThe Meta Ray-Ban smart glasses have been the surprise hit among the most popular tech products of 2024. Amazon is offering the Meta Ray-Bans with the classic black frames for $239 (2… [+4263 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bring Me The News"
+      },
+      "author": "Dustin Nelson",
+      "title": "The best Cyber Monday deals from Target, Walmart, Scheels, and other stores - Bring Me The News",
+      "description": "All the can't-miss Cyber Monday deals at stores like Target, Walmart, Scheels, Gap, Samsung, and other stores.",
+      "url": "https://bringmethenews.com/minnesota-lifestyle/the-best-cyber-monday-deals-from-target-walmart-scheels-and-others",
+      "urlToImage": "https://bringmethenews.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjExMDcyNTQwNjYyMDQ4MzAz/cyber-monday.jpg",
+      "publishedAt": "2024-12-01T13:30:57Z",
+      "content": "NOTE: If you buy through the links below, BMTN may get a commission.\r\nThe chaos of Black Friday has passed, and you can now shop from the relative calm of your phone or laptop. \r\nStores are rolling o… [+3029 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ABC News",
+      "title": "New York counties declare state of emergency as they brace for massive snowstorm - ABC News",
+      "description": null,
+      "url":"https://abcnews.go.com/US/new-york-counties-declare-state-emergency-brace-massive/story?id=116338004",
+      "urlToImage": null,
+      "publishedAt": "2024-12-01T13:00:41Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CBS Sports"
+      },
+      "author": "",
+      "title": "NFL Week 13 odds, predictions, expert picks: Best bets, teasers, survivor picks, where to watch every game - CBS Sports",
+      "description": "CBSSports.com and SportsLine break down every single NFL game in Week 13",
+      "url": "https://www.cbssports.com/nfl/news/nfl-week-13-odds-predictions-expert-picks-best-bets-teasers-survivor-picks-where-to-watch-every-game/",
+      "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/11/22/c05bb427-114d-43db-bba9-b0017543ada0/thumbnail/1200x675/19fa8a72c7b302dcd2fd38e9b485f196/getty-lamar-jackson-ravens.jpg",
+      "publishedAt": "2024-12-01T13:00:36Z",
+      "content": "Week 13 in the NFL is well underway with four games already under our belts over the Thanksgiving and Black Friday holiday. Now, it's time to heat up the leftovers and gear up for a jam-packed Sunday… [+11570 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "POLITICO.eu"
+      },
+      "author": "Claudia Chiappa",
+      "title": "Iceland’s Social Democrats take lead in snap election - POLITICO Europe",
+      "description": "The issues of immigration, energy policy and the economy played a central role in the campaign.",
+      "url": "https://www.politico.eu/article/iceland-social-democrats-take-lead-snap-elections/",
+      "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/12/01/GettyImages-2187162670-scaled.jpg",
+      "publishedAt": "2024-12-01T12:29:00Z",
+      "content": "Icelanders headed to the polls on Saturday with the issues of immigration, energy policy and the economy playing a central role in the election, according to AP.\r\nEuropean Union membership also resur… [+458 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Ally Mutnick",
+      "title": "Trump’s surge with Latino voters is upending the congressional battleground map - POLITICO",
+      "description": "“There's definitely a realignment going on in American politics,” said Dan Conston, the president of the Congressional Leadership Fund.",
+      "url": "https://www.politico.com/news/2024/12/01/trump-latino-voters-surge-00191902",
+      "urlToImage": "https://static.politico.com/73/cc/32e1b2294242a00908c67b4a32fd/election-2024-ap-votecast-black-and-latino-men-78172.jpg",
+      "publishedAt": "2024-12-01T12:00:00Z",
+      "content": "Theres definitely a realignment going on in American politics, and these voters are increasingly winnable, said Dan Conston, the president of the Congressional Leadership Fund, the largest House GOP … [+7189 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Sarah Raza",
+      "title": "Why you shouldn’t reuse single-use plastics - The Washington Post",
+      "description": "Many of us reuse single-use plastics like water bottles, take out containers and plastic bags. But is that safe?",
+      "url": "https://www.washingtonpost.com/climate-solutions/2024/12/01/single-use-plastics-reuse-risk/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2VCHEFMI2ROAVHP4YCYCEPAZYY_size-normalized.jpg&w=1440",
+      "publishedAt": "2024-12-01T11:30:13Z",
+      "content": "You forget to bring your water bottle to the airport, so you buy a plastic one and keep refilling it. Or you order takeout for dinner and save the black plastic container to pack your lunch the next … [+107 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": null,
+      "title": "Putin signs off record Russian defense spending as top EU officials visit Kyiv - The Associated Press",
+      "description": "Russian President Vladimir Putin has approved budget plans, raising 2025 military spending to record levels as Moscow seeks to prevail in the war in Ukraine. Around 32.5% of the budget has been allocated for national defense amounting to over $145 billion, up…",
+      "url": "https://apnews.com/article/russia-ukraine-budget-defense-spending-putin-drone-3a1a73c559b250ec26190edd9332100c",
+      "urlToImage": "https://dims.apnews.com/dims4/default/9953345/2147483647/strip/true/crop/4734x2663+0+247/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F62%2F47%2Fefcfb37d9a16106301e1571b2e0c%2F25474075392449fca083719acf5a0066",
+      "publishedAt": "2024-12-01T11:10:00Z",
+      "content": "KYIV, Ukraine (AP) Russian President Vladimir Putin approved budget plans, raising 2025 military spending to record levels as Moscow seeks to prevail in the war in Ukraine.\r\nAround 32.5% of the budge… [+4194 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Arlette Saenz, Betsy Klein",
+      "title": "Biden fulfilling promise to visit Africa as US looks to counter China’s deepening influence in region - CNN",
+      "description": "President Joe Biden will fulfill a two-year promise to visit Africa as he departs Sunday night for Angola, a trip aimed at highlighting US investment in the continent under his watch in the face of China’s deepening inroads in the region.",
+      "url": "https://www.cnn.com/2024/12/01/politics/biden-promise-visit-africa/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2187027243-copy.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-12-01T11:00:00Z",
+      "content": "President Joe Biden will fulfill a two-year promise to visit Africa as he departs Sunday night for Angola, a trip aimed at highlighting US investment in the continent under his watch in the face of C… [+5784 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Salon"
+      },
+      "author": null,
+      "title": "Uranus is weirder than we thought: Scientists report new mysteries of the tilted planet - Salon",
+      "description": "Recent studies illuminate the secrets of Uranus’ magnetic field and its oceanic moon, Miranda",
+      "url": "https://www.salon.com/2024/12/01/uranus-is-weirder-than-we-thought-scientists-report-new-mysteries-of-the-tilted-planet/",
+      "urlToImage": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2024/11/uranus_planet_and_miranda_moon_713781279.jpg",
+      "publishedAt": "2024-12-01T10:30:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "The Wall Street Journal",
+      "title": "A Generation of Drug-Addiction Survivors Is Entering Old Age - The Wall Street Journal",
+      "description": null,
+      "url": "https://www.wsj.com/us-news/a-generation-of-drug-addiction-survivors-is-entering-old-age-76bba728",
+      "urlToImage": null,
+      "publishedAt": "2024-12-01T10:30:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Athlon Sports"
+      },
+      "author": "Matt Wadleigh",
+      "title": "Joel Klatt Reveals College Football Playoff Predictions After Chaotic Week 14 - Athlon Sports",
+      "description": "Joel Klatt gave his College Football Playoff predictions after Week 14 came to a conclusion.",
+      "url": "https://athlonsports.com/college-football/joel-klatt-college-football-playoff-predictions-chaotic-week-14",
+      "urlToImage": "https://athlonsports.com/.image/t_share/MjEwNTQxNjUzOTgxNjY5MjAx/joel-klatt.png",
+      "publishedAt": "2024-12-01T10:00:00Z",
+      "content": "Week 14 of the college football season gave fans everything they could've possibly hoped for. \r\nThere were big upsets, massive brawls, and some stunning results in Rivalry Week. As such, the next bat… [+1500 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "POLITICO.eu"
+      },
+      "author": "Gabriel Gavin",
+      "title": "Unprecedented protests sweep Georgia as government scraps EU bid - POLITICO Europe",
+      "description": "The European Parliament has called for elections to be rerun amid claims of irregularities and intimidation.",
+      "url": "https://www.politico.eu/article/unprecedented-protests-sweep-georgia-government-scraps-eu-bid/",
+      "urlToImage": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2024/12/01/GettyImages-2187160170-scaled.jpg",
+      "publishedAt": "2024-12-01T09:52:00Z",
+      "content": "A string of top officials including the Georgian ambassadors to Italy, the Netherlands and Lithuania have resigned in protest at the move, as well as Deputy Foreign Minister Temur Janjali.\r\n“What we … [+2324 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Erin Blakemore",
+      "title": "Study shows mountain lions are changing to adapt to human recreation - The Washington Post",
+      "description": "Mountain lions living in the busiest recreation areas were more nocturnal than their counterparts, the researchers found.",
+      "url": "https://www.washingtonpost.com/science/2024/12/01/mountain-lions-nocturnal-recreation-california/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R23QHJD2OBFCKDFOKFHAXY77FY.jpg&w=1440",
+      "publishedAt": "2024-12-01T09:31:56Z",
+      "content": "Mountain lions in Los Angeles are modifying their activity patterns to avoid humans venturing into the animals habitats, a new analysis suggests.\r\nThe study, published in Biological Conservation, loo… [+1962 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Polina Ivanova, Raya Jalabi",
+      "title": "Syrian rebels press southward after seizing Aleppo - Financial Times",
+      "description": "Bashar al-Assad vows to defend country’s stability as shock offensive challenges his regime",
+      "url": "https://www.ft.com/content/6a858bff-476a-44f7-91af-da636f0d6b93",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F971d7295-57cc-47c7-a26e-8956676d879c.jpg?source=next-barrier-page",
+      "publishedAt": "2024-12-01T08:49:06Z",
+      "content": "Try unlimited access\r\nOnly $1 for 4 weeks\r\nThen $75 per month.\r\nComplete digital access to quality FT journalism on any device. \r\nCancel anytime during your trial."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "World Central Kitchen pauses Gaza work after car carrying staff hit by Israeli strike - BBC.com",
+      "description": "Israel said the target of the strike was involved in the October 7 attacks and also worked at the charity World Central Kitchen.",
+      "url": "https://www.bbc.com/news/articles/c4g2g6w4109o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a06b/live/c0dbc510-af1f-11ef-907d-d11d58b97d6a.jpg",
+      "publishedAt": "2024-12-01T08:19:33Z",
+      "content": "The wreckage of a car seen following an Israeli strike in southern Gaza\r\nThe charity World Central Kitchen (WCK) has said it is pausing its operations in Gaza after a vehicle carrying its staff membe… [+3242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Nick Bromberg",
+      "title": "No. 3 Texas holds off No. 20 Texas A&M to clinch spot in SEC title game against No. 7 Georgia - Yahoo Sports",
+      "description": "The Bulldogs handed the Longhorns their only regular season loss.",
+      "url": "https://sports.yahoo.com/no-3-texas-holds-off-no-20-texas-am-to-clinch-spot-in-sec-title-game-against-no-7-georgia-041340234.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ji1wMfP8tLuHCbiwcyTxvg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTA-/https://s.yimg.com/os/creatr-uploaded-images/2024-11/091aa420-af9a-11ef-8ff6-835fb54c710b",
+      "publishedAt": "2024-12-01T06:41:00Z",
+      "content": "Jaydon Blue made a TD grab in the first half of Texas' win over Texas A&amp;M. (Photo by Tim Warner/Getty Images)\r\nIt was a disappointing rivalry renewal for Texas A&amp;M.\r\nNo. 3 Texas beat the No. … [+2587 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WKBN.com"
+      },
+      "author": "Associated Press",
+      "title": "Southwest Airlines to end cabin service earlier on flights to reduce chance of injury - WKBN.com",
+      "description": "Southwest Airlines says it is ending cabin service earlier on flights, requiring passengers to do the usual pre-landing procedures such as ensuring their seatbelts are fastened and returning their seats to an upright position earlier than before. Beginning on…",
+      "url": "https://www.wkbn.com/news/national-world/ap-southwest-airlines-says-it-is-ending-cabin-service-earlier-to-reduce-chance-of-injury/",
+      "urlToImage": "https://www.wkbn.com/wp-content/uploads/sites/48/2024/12/674c043946e718.72713195.jpeg?w=1280",
+      "publishedAt": "2024-12-01T06:32:22Z",
+      "content": "Southwest Airlines says it is ending cabin service earlier on flights, requiring passengers to do the usual pre-landing procedures such as ensuring their seatbelts are fastened and returning their se… [+1066 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Erik Kain",
+      "title": "‘Fortnite’ Servers Are Down, Here’s When Chapter 6, Season 1 Goes Live - Forbes",
+      "description": "Everything you need to know about the start of Fortnite Chapter 6, Season 1.",
+      "url": "https://www.forbes.com/sites/erikkain/2024/12/01/heres-the-exact-time-fortnite-remix-ends-and-chapter-6-season-1-begins/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/674ac88c24578bbed1e2be22/0x0.jpg?format=jpg&crop=1452,817,x230,y126,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2024-12-01T06:23:21Z",
+      "content": "Fortnite\r\nCredit: Epic Games \r\nPost updated 11/30/24. See updates below.\r\nFortnites current Remix Season has been incredibly popular, but its about to end. Not only is the season drawing to a close S… [+4931 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "2urbangirls.com"
+      },
+      "author": "2UrbanGirls",
+      "title": "Winning Powerball lottery ticket sold in Wisconsin - 2UrbanGirls",
+      "description": "News straight outta Inglewood, CA",
+      "url": "https://2urbangirls.com/2024/11/winning-powerball-lottery-ticket-sold-in-wisconsin-3/",
+      "urlToImage": "https://2urbangirls.com/wp-content/uploads/2023/06/powerball.jpg",
+      "publishedAt": "2024-12-01T06:15:18Z",
+      "content": "INGLEWOOD No tickets were sold matching all six numbers in Saturday evenings drawing of the multi-state Powerball lottery, pushing the estimated jackpot for Monday’s drawing to $224 million.\r\nA ticke… [+412 chars]"
+    }
+  ]
+}

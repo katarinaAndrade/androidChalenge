@@ -1,4 +1,4 @@
-package com.katarina.core
+package com.katarina.core.test
 
 import org.junit.Test
 

@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Bob Bryar dead: Former My Chemical Romance drummer dies aged 44",
+      "description": "He helped write songs for acclaimed record The Black Parade, deemed a \"defining album\" by critics.",
+      "url": "https://www.bbc.co.uk/news/articles/cy8n8dxy2j5o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6fb1/live/76312ac0-afe5-11ef-b705-5793bf0088cc.jpg",
+      "publishedAt": "2024-12-01T13:37:22.2532546Z",
+      "content": "Bryar was born in Chicago, Illinois and studied sound engineering at the University of Florida.\r\nHe met the band whilst working as a sound engineer for a support band on an MCR tour in 2004. \r\nAfter … [+1141 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Man arrested on suspicion of rape at Groucho Club",
+      "description": "Police say the alleged rape took place last month at the famous London private members' club.",
+      "url": "https://www.bbc.co.uk/news/articles/c5y8dddpwd2o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f7ce/live/886b0a70-afe6-11ef-bdf5-b7cb2fa86e10.jpg",
+      "publishedAt": "2024-12-01T13:22:25.5458164Z",
+      "content": "A man has been arrested on suspicion of raping a woman at London's Groucho Club. \r\nMetropolitan Police said the alleged rape took place inside the private members' club in Dean Street, Soho, on 13 No… [+267 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "'Our estate pays £9,000 a year for grass to be cut'",
+      "description": "Freehold homeowners say they feel \"fleeced\" over service charges they pay to a private firm.",
+      "url": "https://www.bbc.co.uk/news/articles/c978jqvjzvlo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/29b1/live/c8c1e780-9dbf-11ef-82c3-45a801b7330b.jpg",
+      "publishedAt": "2024-12-01T10:52:23.9545627Z",
+      "content": "The private estates model is becoming increasingly common as strapped-for-cash local authorities, that would in the past have taken on public areas, are seeking ways to avoid extra costs.\r\nInstead of… [+699 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Somali beauty-salon owner dies trying to reach French island of Mayotte",
+      "description": "Woman's body thrown overboard after boat abandoned by people smugglers in the Indian Ocean.",
+      "url": "https://www.bbc.co.uk/news/articles/ce8d5334vmyo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/33f2/live/52e1c7b0-ade1-11ef-87df-bbcf5052d2b3.jpg",
+      "publishedAt": "2024-12-01T09:52:29.1119869Z",
+      "content": "The family of beauty-salon owner Fathi Hussein are deep in mourning at their home in Somalia's capital, Mogadishu, following her horrific death at sea after a deal she struck with migrant smugglers t… [+2660 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "British man Tyler Kerry from Basildon dies on holiday in Turkey",
+      "description": "Tyler Kerry was \"a young man full of personality, kindness and compassion\", his uncle says.",
+      "url": "https://www.bbc.co.uk/news/articles/c1knkx1z8zgo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ee22/live/3312bc00-afb2-11ef-a8f1-f3c660964bed.png",
+      "publishedAt": "2024-12-01T09:52:25.316057Z",
+      "content": "A 20-year-old British man has died after being found fatally injured in a lift shaft while on a family holiday in Turkey.\r\nTyler Kerry, from Basildon, Essex, was discovered on Friday morning at the h… [+281 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Starmer touts measurable targets ahead of new Labour plan",
+      "description": "Vowing Labour is \"knuckling down\" on meeting its promises, the prime minister outlines a new phase for his government, which will start in the coming week.",
+      "url": "https://www.bbc.co.uk/news/articles/czxrxqdkwqqo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/ab3c/live/3e67dac0-af9b-11ef-bdf5-b7cb2fa86e10.jpg",
+      "publishedAt": "2024-12-01T06:07:24.7436471Z",
+      "content": "Conservative co-chairman Nigel Huddleston dismissed the idea as \"Keir Starmers 17th relaunch\" and said that \"the British people will rightly be wondering why they have been short-changed by the party… [+2908 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Gregg Wallace: Fresh questions for BBC over misconduct claims",
+      "description": "Emails have emerged showing the BBC was warned about the MasterChef presenter in 2017.",
+      "url": "https://www.bbc.co.uk/news/articles/c0k8kryvdjno",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/71ca/live/27359740-af76-11ef-8ab9-9192db313061.jpg",
+      "publishedAt": "2024-12-01T04:52:28.3208819Z",
+      "content": "Mir has said that she complained to the BBC about Gregg Wallaces remarks on the set of the cooking show.\r\nIn an internal email, BBC executive Kate Phillips, who now heads up unscripted programmes for… [+1811 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Georgian woman looking for birth parents found dad was a friend on Facebook",
+      "description": "Tamuna Museridze has reunited hundreds of families torn apart by a baby trafficking scandal – now she has found her own birth parents.",
+      "url": "https://www.bbc.co.uk/news/articles/c36p9drnrdlo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4b3a/live/d01ff450-acc3-11ef-bdf5-b7cb2fa86e10.jpg",
+      "publishedAt": "2024-12-01T04:52:26.3526213Z",
+      "content": "Tamuna Museridze took a deep breath and made the phone call she had dreamed of since finding out that she might be adopted.\r\nShe was calling the woman she believed was her biological mother. She knew… [+1421 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Belgium's sex workers get maternity leave and pensions under world-first law",
+      "description": "They will be entitled to official employment contracts, health insurance and sick days.",
+      "url": "https://www.bbc.co.uk/news/articles/c5ygn31ypdlo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/bb6b/live/0401d4a0-ae45-11ef-bdf5-b7cb2fa86e10.jpg",
+      "publishedAt": "2024-12-01T04:37:27.1278427Z",
+      "content": "Belgiums decision to change the law was the result of months of protests in 2022, prompted by the lack of state support during the Covid pandemic.\r\nOne of those at the forefront was Victoria, preside… [+1196 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "The forgotten street found behind a hidden library door",
+      "description": "The passageway gives a glimpse of how Edinburgh looked centuries ago.",
+      "url": "https://www.bbc.co.uk/news/articles/cly2l119zlpo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4602/live/f7e25110-ae47-11ef-bdf5-b7cb2fa86e10.jpg",
+      "publishedAt": "2024-12-01T02:52:25.215006Z",
+      "content": "Bill Jackson, former director of the library, told BBC Scotland News he found old rotten furniture, ledgers, shoes and a slate urinal that were all more than 100 years old, but were waterlogged and d… [+973 chars]"
+    }
+  ]
+}
