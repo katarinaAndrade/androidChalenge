@@ -1,0 +1,239 @@
+[versions]
+# App config
+compileSdk = "35"
+minSdk = "24"
+targetSdk = "34"
+versionCode = "1"
+versionName = "1.0"
+testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+javaVersion = "11"
+
+# Name Space
+appModule = "com.katarina.androidchalenge"
+coreModule = "com.katarina.core"
+coreTestModule = "com.katarina.core.test"
+designModule = "com.katarina.design"
+mainDomainModule = "com.katarina.main.domain"
+mainUIModule = "com.katarina.main.ui"
+
+# Versions
+agp = "8.7.2"
+kotlin = "2.0.21"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.11.00"
+
+detekt = "1.23.7"
+
+constraintlayout = "1.1.0"
+nav_version = "2.8.4"
+koin_version = "4.0.0"
+systemuicontroller_version = "0.36.0"
+retrofit = "2.9.0"
+
+coil_version = "2.4.0"
+
+truth = "1.1.3"
+robolectric = "4.12.2"
+barista = "4.0.0"
+mockk = "1.12.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraintlayout" }
+nav-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "nav_version" }
+koin = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin_version" }
+systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "systemuicontroller_version" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+moshiConverter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil_version" }
+
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+barista = { group = "com.adevinta.android", name = "barista", version.ref = "barista" }
+mockkAndroid = { group = "io.mockk", name = "mockk-android", version.ref = "mockk" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+
+[bundles]
+# App Module
+appModuleBundles = [
+    "androidx-core-ktx",
+    "androidx-lifecycle-runtime-ktx",
+    "androidx-activity-compose",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling-preview",
+    "androidx-material3",
+    "koin",
+]
+
+appModuleBundlesTestImpl = [
+    "junit",
+    "truth",
+    "mockk",
+    "robolectric",
+    "barista"
+]
+
+appModuleBundleAndroidTestImpl = [
+    "androidx-junit",
+    "androidx-espresso-core",
+    "androidx-ui-test-junit4",
+    "mockkAndroid"
+]
+
+appModuleBundlesDebugImpl = [
+    "androidx-ui-tooling",
+    "androidx-ui-test-manifest"
+]
+
+# Core Module
+coreModuleBundles = [
+    "androidx-core-ktx",
+    "androidx-lifecycle-runtime-ktx",
+    "koin",
+    "retrofit",
+    "moshiConverter"
+]
+
+coreModuleBundlesTestImpl = [
+    "junit",
+    "truth",
+    "mockk",
+    "robolectric",
+    "barista"
+]
+
+coreModuleBundleAndroidTestImpl = [
+    "androidx-junit",
+    "androidx-espresso-core",
+    "mockkAndroid"
+]
+
+coreModuleBundlesDebugImpl = [
+]
+
+# Design Module
+designModuleBundles = [
+    "androidx-core-ktx",
+    "androidx-lifecycle-runtime-ktx",
+    "androidx-activity-compose",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling-preview",
+    "androidx-material3",
+    "constraintlayout",
+    "nav-compose",
+    "koin",
+    "systemuicontroller",
+    "coil"
+]
+
+designModuleBundlesTestImpl = [
+    "junit",
+    "truth",
+    "mockk",
+    "robolectric",
+    "barista"
+]
+
+designModuleBundleAndroidTestImpl = [
+    "androidx-junit",
+    "androidx-espresso-core",
+    "androidx-ui-test-junit4",
+    "mockkAndroid"
+]
+
+designModuleBundlesDebugImpl = [
+    "androidx-ui-tooling",
+    "androidx-ui-test-manifest"
+]
+
+# Main Domain Module
+mainDomainModuleBundles = [
+    "androidx-core-ktx",
+    "androidx-lifecycle-runtime-ktx",
+    "koin"
+]
+
+mainDomainModuleBundlesTestImpl = [
+    "junit",
+    "truth",
+    "mockk",
+    "robolectric",
+    "barista"
+]
+
+mainDomainModuleBundleAndroidTestImpl = [
+    "androidx-junit",
+    "androidx-espresso-core",
+    "mockkAndroid"
+]
+
+mainDomainModuleBundlesDebugImpl = [
+]
+
+# Main UI Module
+mainUIModuleBundles = [
+    "androidx-core-ktx",
+    "androidx-lifecycle-runtime-ktx",
+    "androidx-activity-compose",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling-preview",
+    "androidx-material3",
+    "constraintlayout",
+    "nav-compose",
+    "koin"
+]
+
+mainUIModuleBundlesTestImpl = [
+    "junit",
+    "truth",
+    "mockk",
+    "robolectric",
+    "barista"
+]
+
+mainUIModuleBundleAndroidTestImpl = [
+    "androidx-junit",
+    "androidx-espresso-core",
+    "androidx-ui-test-junit4",
+    "mockkAndroid"
+]
+
+mainUIModuleBundlesDebugImpl = [
+    "androidx-ui-tooling",
+    "androidx-ui-test-manifest"
+]

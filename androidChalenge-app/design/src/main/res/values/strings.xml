@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_language">Language: %s</string>
+    <string name="menu_country">Country: %s</string>
+    <string name="card_image">News Image</string>
+</resources>
