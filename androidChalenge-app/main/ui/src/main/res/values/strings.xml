@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Chalenge</string>
+    <string name="dropdown_button">Select Source</string>
+    <string name="dropdown_button_icon">Icon ArrowDropDown</string>
+    <string name="title_default_top_headlines">Top Headlines - %s</string>
+    <string name="article_back_button">Back Button</string>
+    <string name="article_author">Author: %s</string>
+    <string name="article_link">Read full article on the web</string>
 </resources>

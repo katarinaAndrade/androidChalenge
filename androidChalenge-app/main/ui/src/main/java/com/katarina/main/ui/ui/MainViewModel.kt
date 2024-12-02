@@ -1,14 +1,18 @@
 package com.katarina.main.ui.ui
 
 import android.util.Log
-import androidx.lifecycle.MutableLiveData
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.katarina.main.domain.data.model.TopHeadlines
+import com.katarina.main.domain.data.model.SourcesResponse
+import com.katarina.main.domain.data.model.TopHeadlinesResponse
 import com.katarina.main.domain.data.useCase.HomeUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+@SuppressWarnings("TooGenericExceptionCaught")
 class MainViewModel(
     private val homeUseCase: HomeUseCase
 ) : ViewModel() {
@@ -17,14 +21,32 @@ class MainViewModel(
         const val HOME_VIEW_MODEL = "home_view_model"
     }
 
-    val listTopHeadlines = MutableLiveData<TopHeadlines?>()
+    var sourceResponse by mutableStateOf<SourcesResponse?>(null)
+        private set
+    var topHeadlinesResponse by mutableStateOf<TopHeadlinesResponse?>(null)
+        private set
 
-    @SuppressWarnings("TooGenericExceptionCaught")
-    fun getTopHeadlines() {
+    init {
+        getSources()
+        getTopHeadlines("")
+    }
+
+    private fun getSources() {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                val response = homeUseCase.getTopHeadlines()
-                listTopHeadlines.postValue(response)
+                val response = homeUseCase.getSources()
+                sourceResponse = response
+            } catch (e: Exception) {
+                Log.d(HOME_VIEW_MODEL, "${e.message}")
+            }
+        }
+    }
+
+    fun getTopHeadlines(source: String) {
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val response = homeUseCase.getTopHeadlines(source = source)
+                topHeadlinesResponse = response
             } catch (e: Exception) {
                 Log.d(HOME_VIEW_MODEL, "${e.message}")
             }

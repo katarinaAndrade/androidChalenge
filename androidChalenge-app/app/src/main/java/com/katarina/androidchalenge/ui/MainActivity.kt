@@ -13,6 +13,7 @@ import com.katarina.design.theme.AndroidChalengeTheme
 import com.katarina.main.ui.ui.main.MainAppNav
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
+import org.koin.core.context.GlobalContext
 import org.koin.core.context.GlobalContext.startKoin
 
 class MainActivity : ComponentActivity() {
@@ -30,10 +31,12 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun setupKoin() {
-        startKoin {
-            androidLogger()
-            androidContext(this@MainActivity)
-            modules(projectKoinModules)
+        if (GlobalContext.getOrNull() == null) {
+            startKoin {
+                androidLogger()
+                androidContext(this@MainActivity)
+                modules(projectKoinModules)
+            }
         }
     }
 

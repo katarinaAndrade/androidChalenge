@@ -15,8 +15,13 @@ object Constants {
     const val API_KEY_VALUE = "ad40557f3dc44c79b3a25c37daa2403b"
 
     const val BASE_URL = "https://newsapi.org/v2/"
-    const val COUNTRY = "country"
-    const val DEFAULT_COUNTRY = "us"
+
+    const val SORTED_BY = "sortBy"
+    const val PUBLISHED_AT = "publishedAt"
+
     const val TOP_HEADLINES = "top-headlines"
     const val SOURCES = "sources"
+
+    const val COUNTRY = "country"
+    const val COUNTRY_DEFAULT = "us"
 }
